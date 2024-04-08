@@ -136,6 +136,7 @@ main > h2 {
 
 .loader-visible {
     opacity: 0%!important;
+    z-index: -10;
 }
 
 
