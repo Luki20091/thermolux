@@ -8,8 +8,8 @@
     --dark: #1d1d1f;
     --font1: 'Comfortaa';
     --shadows: 0 0 4px rgba(0, 0, 0, 0.8);
-	--transition-bounce: 700ms cubic-bezier(0.64,-0.55, 0.37, 1.55);
-	--transition-bounce2: 1100ms;
+    --transition-bounce: 700ms cubic-bezier(0.64,-0.55, 0.37, 1.55);
+    --transition-bounce2: 1100ms;
 }
 
 
