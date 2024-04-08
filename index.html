@@ -17,14 +17,29 @@
     <body>
 
         <img class="image-bg" src="assets/images/background.jpg"/>
-        <header>
+        <div id="loader" class="loader"></div>
+        <header id="header">
             <h2><a href="http://www.thermolux.pl/">Thermolux.pl</a></h2>
             <h2><a href="mailto:info@thermolux.pl">Kontakt</a></h2>
         </header>
         <main>
-            <i class="fa-solid fa-person-digging"></i>
-            <h1>STRONA W BUDOWIE</h1>
-            <h2>ZAPRASZAMY WKRÓTCE</h2>
+            <i id="icon" class="fa-solid fa-person-digging"></i>
+            <h1 id="h1">STRONA W BUDOWIE</h1>
+            <h2 id="h2">ZAPRASZAMY WKRÓTCE</h2>
         </main>
     </body>
+    <script>
+		const header = document.getElementById("header");
+		const h1 = document.getElementById("h1");
+		const h2 = document.getElementById("h2");
+		const loader = document.getElementById("loader");
+
+        setTimeout(function load() {
+			header.classList.add("header-visible");
+			h1.classList.add("h1-visible");
+			h2.classList.add("h2-visible");
+			loader.classList.add("loader-visible");
+
+		}, 700);
+    </script>
 </html>
