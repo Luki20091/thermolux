@@ -162,6 +162,15 @@ main > h2 {
         margin-bottom: 10px;
     }
 
+    .h1-visible {
+        height: 28px!important;
+    }
+    
+    .h2-visible {
+        opacity: 100%!important;
+        height: 17px!important;
+    }
+
 }
 
 
